@@ -1,8 +1,12 @@
 {
-	"name": "simple-sample-plugin",
-	"version": "1.0.0",
-	"main": "main.js",
-	"devDependencies": {
-		"obsidian": "latest"
-	}
+  "name": "obsidian-drag-and-drop-reorder-files",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "lexorank": "github:vergenzt/lexorank-ts"
+  },
+  "devDependencies": {
+    "obsidian": "latest",
+    "tslib": "^2.8.1"
+  }
 }

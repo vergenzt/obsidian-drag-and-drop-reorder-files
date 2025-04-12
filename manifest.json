@@ -1,11 +1,8 @@
 {
-	"id": "simple-sample-plugin",
-	"name": "Simple Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "1.0.0",
-	"description": "Demonstrates a simple JavaScript-only Obsidian plugin.",
-	"author": "Example Humanoid",
-	"authorUrl": "https://example.com",
-	"fundingUrl": "https://example.com/funding",
-	"isDesktopOnly": false
+	"id": "drag-and-drop-reorder-files",
+	"name": "Drag and Drop Reorder Files",
+	"version": "0.1.0",
+	"description": "Drag and drop to reorder files based on the Lexorank algorithm used by Jira",
+	"author": "Tim Vergenz <vergenzt@gmail.com>",
+	"authorUrl": "https://github.com/vergenzt"
 }
