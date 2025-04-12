@@ -3,10 +3,25 @@
   "version": "0.1.0",
   "main": "main.js",
   "dependencies": {
-    "lexorank": "github:vergenzt/lexorank-ts"
+    "lexorank": "github:vergenzt/lexorank-ts",
+    "obsidian": "latest"
   },
   "devDependencies": {
-    "obsidian": "latest",
-    "tslib": "^2.8.1"
+    "esbuild": "^0.25.2",
+    "esbuild-config": "^1.0.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc && esbuild $(esbuild-config)"
+  },
+  "esbuild": {
+    "entry": "main.ts",
+    "outfile": "main.js",
+    "format": "cjs",
+    "bundle": true,
+    "external": [
+      "obsidian"
+    ]
   }
 }

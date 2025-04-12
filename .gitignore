@@ -1,6 +1,7 @@
 node_modules
+*.js
 
 # obsidian saves settings here
 data.json
-main.js
+
 test-vault
